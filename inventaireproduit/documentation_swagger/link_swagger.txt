@@ -1,0 +1,15 @@
+Interface graphique: http://localhost:8080/swagger-ui/index.html
+-Requête GET pour un getAllProducts
+http://localhost:8080/swagger-ui/index.html#/product-controller/getAllProducts
+
+-Requête POST pour un createProduct
+http://localhost:8080/swagger-ui/index.html#/product-controller/createProduct
+
+-Requête GET pour un getLowStockProducts
+http://localhost:8080/swagger-ui/index.html#/product-controller/getLowStockProducts
+
+-Requête PUT pour un updateProduct
+http://localhost:8080/swagger-ui/index.html#/product-controller/updateProduct
+
+-Requête DELETE pour un deleteProduct
+http://localhost:8080/swagger-ui/index.html#/product-controller/deleteProduct

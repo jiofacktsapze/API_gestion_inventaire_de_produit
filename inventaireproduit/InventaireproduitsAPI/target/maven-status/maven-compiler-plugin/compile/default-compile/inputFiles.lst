@@ -1,0 +1,8 @@
+/home/joelromaric/Desktop/projet spring boot/produits/src/main/java/com/jiofack/products/ProductsApplication.java
+/home/joelromaric/Desktop/projet spring boot/produits/src/main/java/com/jiofack/products/controller/ProductController.java
+/home/joelromaric/Desktop/projet spring boot/produits/src/main/java/com/jiofack/products/dto/ProductDTO.java
+/home/joelromaric/Desktop/projet spring boot/produits/src/main/java/com/jiofack/products/exceptions/GlobalExceptionHandler.java
+/home/joelromaric/Desktop/projet spring boot/produits/src/main/java/com/jiofack/products/exceptions/ResourceNotFoundException.java
+/home/joelromaric/Desktop/projet spring boot/produits/src/main/java/com/jiofack/products/models/Product.java
+/home/joelromaric/Desktop/projet spring boot/produits/src/main/java/com/jiofack/products/repository/ProductRepository.java
+/home/joelromaric/Desktop/projet spring boot/produits/src/main/java/com/jiofack/products/services/ProductService.java
