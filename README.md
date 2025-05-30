@@ -13,8 +13,7 @@ Cette API permet de gérer un stock de produits : création, lecture, mise à jo
 
 🚀 Lancement du projet
     1. Cloner le dépôt :
-       git clone https://github.com/ton-utilisateur/product-api.git
-       cd product-api
+       git clone https://github.com/jiofacktsapze/API_gestion_inventaire_de_produit
     2. Configurer la base de données dans application.properties :
        Exemple :
        spring.datasource.url=jdbc:postgresql://localhost:5442/product-app
@@ -25,9 +24,6 @@ Cette API permet de gérer un stock de produits : création, lecture, mise à jo
        ./mvnw spring-boot:run
        L’application sera disponible à l’adresse :
 ➤ http://localhost:8080
-
-
-
 
 📚 Documentation Swagger
 Une fois l’application démarrée, la documentation Swagger est disponible à :
