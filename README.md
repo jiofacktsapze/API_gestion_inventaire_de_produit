@@ -3,7 +3,7 @@
 Cette API permet de gérer un stock de produits : création, lecture, mise à jour, suppression et affichage des produits en faible stock. Elle est développée avec Spring Boot 3.2.6 et documentée grâce à Swagger/OpenAPI.
 
 
-✅ Prérequis
+✅ Prérequis:
     • IDE recommandé : IntelliJ IDEA
     • Outils de test : Swagger UI ou Postman (optionnel)
     • Environnement : JDK 21 et Maven
@@ -11,7 +11,7 @@ Cette API permet de gérer un stock de produits : création, lecture, mise à jo
     • Docker (pour tester avec une BDD Dockerisée)
       
 
-🚀 Lancement du projet
+🚀 Lancement du projet:
     1. Cloner le dépôt :
        git clone https://github.com/jiofacktsapze/API_gestion_inventaire_de_produit
     2. Configurer la base de données dans application.properties :
@@ -30,7 +30,8 @@ Une fois l’application démarrée, la documentation Swagger est disponible à 
 👉 http://localhost:8080/swagger-ui.html
 Ou (si redirigé automatiquement) :
 👉 http://localhost:8080/swagger-ui/index.html
-📦 Points de terminaison disponibles
+📦 Points de terminaison disponibles:
+
 ✅ Créer un produit
 
 POST /api/products
@@ -57,13 +58,14 @@ Exemple de corps JSON :
 }
 
 🗑️ Supprimer un produit
+
 DELETE /api/products/{id}
 
 ⚠️ Produits en stock faible
 
 GET /api/products/Low-stock
 
-⚠️ Validation
+⚠️ Validation:
     • Le prix et la quantité doivent être strictement supérieurs à 0, sinon une erreur 400 sera renvoyée.
     • Le nom du produit est requis.
 
@@ -72,14 +74,3 @@ GET /api/products/Low-stock
 - Utilise Swagger UI pour tester facilement toutes les routes.
 - Utilise Postman ou Curl pour tests avancés.
 - Vérifie les logs en cas d’erreur (`target/classes/logs` ou console).
-
- 📂 Structure du projet
-
-com.jiofack.products
-├── config   	        # Swagger
-├── controller      # Contrôleurs REST
-├── dto                # Objets de transfert de données
-├── exceptions    # Gestion des exceptions
-├── models          # Entités JPA
-├── repository     # Interfaces d'accès à la BD
-└── services        # Logique métier
