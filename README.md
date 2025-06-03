@@ -25,11 +25,12 @@ Cette API permet de gérer un stock de produits : création, lecture, mise à jo
        L’application sera disponible à l’adresse :
 ➤ http://localhost:8080
 
-📚 Documentation Swagger
+📚 Documentation Swagger:
 Une fois l’application démarrée, la documentation Swagger est disponible à :
 👉 http://localhost:8080/swagger-ui.html
 Ou (si redirigé automatiquement) :
 👉 http://localhost:8080/swagger-ui/index.html
+
 📦 Points de terminaison disponibles:
 
 ✅ Créer un produit
